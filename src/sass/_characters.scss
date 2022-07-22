@@ -1,0 +1,134 @@
+.content-characters {
+  gap: 0.7rem;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.tabela {
+  display: grid;
+  grid-template-rows: 1fr;
+  border: solid 1px $preto;
+  grid-template-columns: 1fr;
+  div {
+    border-bottom: solid 1px $preto;
+  }
+  .opcao {
+    position: relative;
+    .imagem {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+    .nome-kanji {
+      right: 0;
+      bottom: 0;
+      width: 30%;
+      height: 35%;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      border-radius: 0.2em;
+      flex-direction: column;
+      justify-content: center;
+      background-color: $branco;
+      border: 0.01em solid $preto;
+      transform: rotate3d(-60, -90, -30, -35deg);
+      p {
+        font-weight: 600;
+        font-size: medium;
+        text-align: center;
+        font-family: $Signika;
+      }
+    }
+  }
+  .marcador-infor {
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    color: $branco;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    font-family: $Signika;
+    justify-content: center;
+    background-color: $preto;
+    span {
+      font-size: 1rem;
+    }
+  }
+  .linha {
+    width: 100%;
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row;
+    justify-content: space-between;
+    span {
+      flex: 1;
+      display: flex;
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-align: left;
+      font-family: $Signika;
+      &:nth-child(2) {
+        color: $cinza;
+        font-weight: 400;
+      }
+    }
+  }
+}
+.infor {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-right: 0.7rem;
+  flex-direction: column;
+  justify-content: center;
+  .campo-infor {
+    height: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 1px $preto;
+    &:nth-child(1) {
+      margin-top: 0.7rem;
+      margin-bottom: 0.7rem;
+    }
+    h1,
+    h2 {
+      color: $cinza;
+      font-weight: 700;
+      font-size: 1.2rem;
+      text-align: center;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      font-family: $Signika;
+    }
+    p {
+      color: $cinza;
+      padding: 2rem;
+      font-size: 1rem;
+      font-weight: 500;
+      text-align: justify;
+      font-family: $inter;
+    }
+  }
+  .voltar {
+    width: 100%;
+    display: flex;
+    margin-top: 0.7rem;
+    align-items: center;
+    margin-bottom: 0.7rem;
+    justify-content: flex-end;
+    span {
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 700;
+      text-align: left;
+      font-family: $Signika;
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "personagens": [
+    {
+      "id": 1,
+      "nome": "Sachi Nanjou",
+      "kanji": "南条 幸",
+      "imagem": "https://i.imgur.com/xNJfROJ.jpg",
+      "status": "Vivo",
+      "sexo": "Feminino",
+      "escolaridade": "Ensino superior incompleto",
+      "capitulo": 13,
+      "descricao": "Sachi é uma jovem que busca uma carreira como artista de mangá. Ela tem visões realistas sobre as coisas e não tem medo de falar, mas a maioria das pessoas pensa que ela é apenas uma pessoa rude. Ela é acolhedora e está disposta a ajudar a quem precisa. Sachi aparece pela primeira vez com rosto redondo, nariz largo e com cabelo curto, ao longo de toda história, Sachi passa por várias mudança em sua aparência.",
+      "personalidade": "Sachi é uma garota forte, sonhadora, acolhedora e reaslista. Ela está disposta a enfrentar qualquer desafio pelos seus objetivos, desde muito cedo, ela decidiu seguir sua própria vontade."
+    },
+    {
+      "id": 2,
+      "nome": "Punpun Onodera",
+      "kanji": "小野寺 プンプン",
+      "imagem": "https://i.imgur.com/K2MRQQf.jpg",
+      "status": "Vivo",
+      "sexo": "Masculino",
+      "escolaridade": "Ensino médio",
+      "capitulo": 1,
+      "descricao": "Punpun é um menino socialmente desajeitado cuja idade de inocência termina com o divórcio de seus pais. À medida que ele continua a amadurecer e a interagir com as pessoas ao seu redor como um garoto comum faria, como lidar com paixões e fazer travessuras com seus colegas de classe, ele começa a aprender o quão esmagadora e dura a realidade pode ser, e luta para encontrar seu propósito na vida no mundo. ",
+      "personalidade": "Punpun era gentil e sonhador boa parte de sua infância, após o divórcio dos seus pais, ele entra em uma profunda desilusão consigo mesmo, tornando-se alguém depressivo, cínico e violento por um curto período de sua vida, quando finalmente se encontra consigo mesmo, ele volta a ser quem era no passado."
+    },
+    {
+      "id": 3,
+      "nome": "Masumi Seki",
+      "kanji": "関 真澄 ",
+      "imagem": "https://i.imgur.com/ntyEzoa.png",
+      "status": "Vivo",
+      "sexo": "Masculino",
+      "escolaridade": "Ensino médio",
+      "capitulo": 2,
+      "descricao": "Masumi Seki é um dos amigos de infância de Punpun e é o melhor amigo de Shimizu.  Há uma cicatriz permanente acima da ponta do nariz que é coberta por um curativo durante a maior parte do ensino fundamental. Sua família é proprietária da Seki Lunches, que costumava fazer negócios com a agora abandonada fábrica de missô.",
+      "personalidade": "Seki tem uma personalidade áspera e geralmente tem uma expressão fria e indiferente, mesmo quando chateado."
+    },
+    {
+      "id": 4,
+      "nome": "Aiko Tanaka",
+      "kanji": "田中 愛子 ",
+      "imagem": "https://i.imgur.com/OE9Gnkw.jpg",
+      "status": "Morta",
+      "sexo": "Feminino",
+      "escolaridade": "Ensino médio",
+      "capitulo": 1,
+      "descricao": "Aiko Tanaka é uma garota muito estranha e o primeiro amor de Punpun. Sua mãe fazia parte de um culto e mais tarde ficou ferida, forçando Aiko a cuidar dela. Embora Aiko esteja ausente em grande parte do mangá, ela desempenha um papel significativo no crescimento emocional e psicológico de Punpun.",
+      "personalidade": "Na escola primária, Aiko é uma criança extrovertida e destemida. Ela não tem medo de falar o que pensa e de fingir e intimida com Punpun com suas exigências extremas de seu amor. Seu maior desejo era ser verdadeiramente amada, por um longo tempo era difícil sorrir, mas tudo mudou quando conheceu Punpun. Aiko Tanaka sempre aparenteva tristeza e desilução com a vida."
+    }
+  ]
+}
